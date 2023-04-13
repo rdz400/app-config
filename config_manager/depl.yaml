@@ -1,0 +1,19 @@
+# Each configuration description should have three keys: name, src, description
+# Try to use environment variables where possible. This avoids hardcoding the
+# full path and makes this setup more portable.
+# -
+#   name: "pgadmin-settings"
+#   src: '%APPDATA%\pgadmin\pgadmin4.db'
+#   description: 'Config for pgAdmin'
+-
+  name: "jupyter-settings"
+  src: '%USERPROFILE%\.jupyter\lab\user-settings\@jupyterlab\'
+  description: 'Config for Jupyter'
+-
+  name: "vs-code-settings"
+  src: '%APPDATA%\Code\User\settings.json'
+  description: 'Config for VSCode'
+-
+  name: "vs-code-keybindings"
+  src: '%APPDATA%\Code\User\keybindings.json'
+  description: 'Keybindings for VS Code'

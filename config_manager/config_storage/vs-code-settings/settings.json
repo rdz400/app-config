@@ -1,0 +1,47 @@
+{
+    "python.languageServer": "Pylance",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.defaultInterpreterPath": "C:\\Users\\Ronald\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
+    "editor.mouseWheelZoom": true,
+    "editor.codeLensFontSize": 0,
+    "editor.renderWhitespace": "all", 
+    "editor.fontSize": 13,
+    "editor.rulers": [
+        80
+    ],
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "'Roboto Mono', 'Fira Code Retina', Consolas, 'Courier New', monospace",
+    "editor.parameterHints.enabled": false,
+    "editor.suggest.showTypeParameters": false,
+    "editor.accessibilitySupport": "off",
+    "files.exclude": {
+        "**/__pycache__/": true,
+        "**/.pytest_cache/": true,
+    },
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.startupEditor": "none",
+    "window.openFilesInNewWindow": "on",
+    "window.openFoldersInNewWindow": "on",
+    "workbench.colorTheme": "Default Dark+ Experimental",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.fontFamily": "'Roboto Mono'",
+    "terminal.integrated.fontWeight": "400",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "window.menuBarVisibility": "toggle",
+    "workbench.layoutControl.enabled": false,
+    "markdown.preview.fontSize": 13,
+    "markdown.preview.lineHeight": 1.4,
+    "notebook.markup.fontSize": 12,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "terminal.external.windowsExec": "C:\\Users\\Ronald\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+    "powershell.integratedConsole.showOnStartup": false,
+    "window.zoomLevel": 1
+}

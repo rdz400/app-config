@@ -1,0 +1,48 @@
+// Place your key bindings in this file to override the defaults
+[
+    { "key": "ctrl+shift+q",    "command": "workbench.action.toggleMaximizedPanel" },
+    { "key": "ctrl+shift+x", "command": "python.execInTerminal"},
+    {
+        "key": "ctrl+shift+-",
+        "command": "list.collapseAll",
+        "when": "listFocus"
+    },
+    {
+        "key": "ctrl+k x",
+        "command": "workbench.action.toggleMenuBar"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "notebook.cell.joinBelow",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "alt+win+j",
+        "command": "-notebook.cell.joinBelow",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "notebook.cell.collapseCellOutput",
+        "when": "notebookCellHasOutputs && notebookCellListFocused && !inputFocus && !notebookCellOutputIsCollapsed"
+    },
+    {
+        "key": "ctrl+k t",
+        "command": "-notebook.cell.collapseCellOutput",
+        "when": "notebookCellHasOutputs && notebookCellListFocused && !inputFocus && !notebookCellOutputIsCollapsed"
+    },
+    {
+        "key": "ctrl+shift+z",
+        "command": "notebook.cell.expandCellOutput",
+        "when": "notebookCellListFocused && notebookCellOutputIsCollapsed"
+    },
+    {
+        "key": "ctrl+k t",
+        "command": "-notebook.cell.expandCellOutput",
+        "when": "notebookCellListFocused && notebookCellOutputIsCollapsed"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "explorer.newFolder"
+    }
+]
