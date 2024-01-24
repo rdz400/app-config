@@ -4,9 +4,5 @@
     // Markdown viewer settings.
     // *******************************************
 
-    // Font Family
-    // The font family used to render markdown.
-    // If `null`, value from current theme is used.
-    "fontFamily": "Roboto",
 
 }

@@ -1,15 +1,13 @@
 {
     "python.languageServer": "Pylance",
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "python.defaultInterpreterPath": "C:\\Users\\Ronald\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "python.defaultInterpreterPath": "C:\\Users\\Ronald\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
     "zenMode.hideLineNumbers": false,
     "zenMode.fullScreen": false,
     "zenMode.centerLayout": false,
     "editor.mouseWheelZoom": true,
     "editor.codeLensFontSize": 0,
     "editor.renderWhitespace": "all", 
-    "editor.fontSize": 13,
+    "editor.fontSize": 15,
     "editor.rulers": [
         80
     ],
@@ -20,13 +18,13 @@
     "editor.accessibilitySupport": "off",
     "files.exclude": {
         "**/__pycache__/": true,
+        "**/.mypy_cache/": true,
         "**/.pytest_cache/": true,
+        "**/*.egg-info/": true,
     },
-    "workbench.iconTheme": "vs-minimal",
     "workbench.startupEditor": "none",
     "window.openFilesInNewWindow": "on",
     "window.openFoldersInNewWindow": "on",
-    "workbench.colorTheme": "Default Dark+ Experimental",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.enablePersistentSessions": false,
@@ -36,12 +34,27 @@
     "window.menuBarVisibility": "toggle",
     "workbench.layoutControl.enabled": false,
     "markdown.preview.fontSize": 13,
-    "markdown.preview.lineHeight": 1.4,
+    "markdown.preview.lineHeight": 1.2,
+    "markdown.preview.fontFamily": "Segoe UI",
     "notebook.markup.fontSize": 12,
     "[python]": {
         "editor.formatOnType": true
     },
     "terminal.external.windowsExec": "C:\\Users\\Ronald\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
     "powershell.integratedConsole.showOnStartup": false,
-    "window.zoomLevel": 1
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 80,
+    },
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.completeFunctionParens": true,
+    "flake8.args": [
+        "--max-line-length", "89"
+    ],
+    "sqlfluff.dialect": "postgres",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "window.zoomLevel": 1,
+    "[sql]": {
+        "editor.defaultFormatter": "dorzey.vscode-sqlfluff"
+    },
 }
